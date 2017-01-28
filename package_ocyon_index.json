@@ -11,10 +11,10 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "",
-          "archiveFileName": "",
-          "checksum": "SHA-256:64chars",
-          "size": "bytes",
+          "url": "https://github.com/theAirC/Arduino/raw/master/packages/AVR/AVR.zip",
+          "archiveFileName": "AVR.zip",
+          "checksum": "SHA-256:59db7be971722bce9ed805791a7036e7ae22821425c13eebe3228b94bb0825db",
+          "size": "2151",
           "boards": [
             {
               "name": "UTREX Transmitter Rev1"
