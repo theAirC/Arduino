@@ -11,10 +11,10 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/theAirC/Arduino/master/packages/AVR/ocyon_boards_avr.zip",
-          "archiveFileName": "ocyon_boards_avr.zip",
-          "checksum": "SHA-256:59db7be971722bce9ed805791a7036e7ae22821425c13eebe3228b94bb0825db",
-          "size": "2151",
+          "url": "https://raw.githubusercontent.com/theAirC/Arduino/master/packages/avr.zip",
+          "archiveFileName": "avr.zip",
+          "checksum": "SHA-256:0506b5496cbf7bd7edc8f1fa30c685dd90622781d7efa439ddf04adf7a4e3e52",
+          "size": "2335",
           "boards": [
             {
               "name": "UTREX Transmitter Rev1"
