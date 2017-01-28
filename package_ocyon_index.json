@@ -1,0 +1,30 @@
+{
+  "packages": [
+    {
+      "name": "OCYON",
+      "maintainer": "OCYON Electronics",
+      "websiteURL": "http://ocyon.com",
+      "email": "support@ocyon.com",
+      "platforms": [
+        {
+          "name": "Ocyon AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "",
+          "archiveFileName": "",
+          "checksum": "SHA-256:64chars",
+          "size": "bytes",
+          "boards": [
+            {
+              "name": "UTREX Transmitter Rev1"
+            },
+            {
+              "name": "UTREX Receiver Rev1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
