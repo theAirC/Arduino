@@ -1,0 +1,2 @@
+
+#define PRIMARY_MODE PRIMARY_MODE_TX

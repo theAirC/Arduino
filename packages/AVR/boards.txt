@@ -1,11 +1,9 @@
 # Configuration for ocyon arduino-compatible avr boards.
 #
 # For more information see:
-# * https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
-# * https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
+#   https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
+#   https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
 #
-
-menu.cpu=Processor
 
 ################################
 # UTREX Transmitter Rev1
@@ -19,11 +17,11 @@ UTREX_TX_R1.upload.maximum_size=30720
 UTREX_TX_R1.upload.maximum_data_size=2048
 UTREX_TX_R1.upload.speed=115200
 
-UTREX_TX_R1.build.mcu=atmega328pb
+UTREX_TX_R1.build.mcu=atmega328p
 UTREX_TX_R1.build.f_cpu=16000000UL
-UTREX_TX_R1.build.core=avrHP
+UTREX_TX_R1.build.core=arduino:arduino
 UTREX_TX_R1.build.board=UTREX_TX_R1
-UTREX_TX_R1.build.variant=utrTXR1
+UTREX_TX_R1.build.variant=arduino:standard
 
 ################################
 # UTREX Receiver Rev1
@@ -39,6 +37,6 @@ UTREX_RX_R1.upload.speed=115200
 
 UTREX_RX_R1.build.mcu=atmega328pb
 UTREX_RX_R1.build.f_cpu=16000000UL
-UTREX_RX_R1.build.core=hp_avr
+UTREX_RX_R1.build.core=avrHP
 UTREX_RX_R1.build.board=UTREX_RX_R1
 UTREX_RX_R1.build.variant=utrRXR1
