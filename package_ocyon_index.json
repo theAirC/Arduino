@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "OCYON",
+      "name": "ocyon",
       "maintainer": "OCYON Electronics",
       "websiteURL": "http://ocyon.com",
       "email": "support@ocyon.com",
@@ -22,9 +22,11 @@
             {
               "name": "UTREX Receiver Rev1"
             }
-          ]
+          ],
+          "toolsDependencies": []
         }
-      ]
+      ],
+      "tools": []
     }
   ]
 }
